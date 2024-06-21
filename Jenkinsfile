@@ -3,11 +3,11 @@ pipeline {
 
     environment {
         REGION = 'ap-northeast-2'
-        EKS_API = 'https://A854A56A9E8DC64E6BBFD91B57621678.gr7.ap-northeast-2.eks.amazonaws.com'
-        EKS_CLUSTER_NAME = 'test-eks'
+        EKS_API = 'https://5584D484FED9F113203E60BDC79C25AF.gr7.ap-northeast-2.eks.amazonaws.com'
+        EKS_CLUSTER_NAME = 'user03-eks'
         EKS_JENKINS_CREDENTIAL_ID = 'Kubernetes-Cred'
         ECR_PATH = '879772956301.dkr.ecr.ap-northeast-2.amazonaws.com'
-        ECR_IMAGE = 'test-product'
+        ECR_IMAGE = 'user03-product'
         AWS_CREDENTIAL_ID = 'AWS-Cred'
     }
     stages {
